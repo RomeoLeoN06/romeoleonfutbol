@@ -1,0 +1,25 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="skin2" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f5e0c3"/>
+      <stop offset="100%" stop-color="#d39f72"/>
+    </radialGradient>
+    <linearGradient id="jersey2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+  <!-- Jersey/Body -->
+  <path d="M 20 80 Q 60 140 100 80 L 90 120 L 30 120 Z" fill="url(#jersey2)"/>
+  <!-- Head -->
+  <circle cx="60" cy="50" r="40" fill="url(#skin2)" stroke="#222" stroke-width="2"/>
+  <!-- Hair (Different style) -->
+  <path d="M 15 50 Q 60 -10 105 50 Q 60 20 15 50 Z" fill="#4a3000"/>
+  <!-- Eyes -->
+  <circle cx="45" cy="45" r="5" fill="#fff"/>
+  <circle cx="45" cy="45" r="2" fill="#000"/>
+  <circle cx="75" cy="45" r="5" fill="#fff"/>
+  <circle cx="75" cy="45" r="2" fill="#000"/>
+  <!-- Mouth -->
+  <path d="M 50 65 Q 60 75 70 65" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+</svg>

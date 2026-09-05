@@ -1,0 +1,14 @@
+<svg width="60" height="40" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shoe2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+  <!-- Flipped horizontally because Player 2 faces left -->
+  <path d="M 55 30 Q 45 10 30 15 L 5 15 Q 0 25 5 35 L 50 35 Q 60 35 55 30 Z" fill="url(#shoe2)" stroke="#222" stroke-width="2"/>
+  <!-- Cleats -->
+  <rect x="15" y="35" width="4" height="4" fill="#666"/>
+  <rect x="30" y="35" width="4" height="4" fill="#666"/>
+  <rect x="45" y="35" width="4" height="4" fill="#666"/>
+</svg>
